@@ -61,7 +61,7 @@ div.topbar a:hover {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 3%;
+  top: -20px;
   /* left: 50%; */
   z-index: 100;
 }
@@ -131,7 +131,7 @@ nav div:hover {
   .logo {
     width: 80%;
     height: 13%;
-    top: 0;
+    top: -20px;
     right: 0;
   }
   .hamburger {
