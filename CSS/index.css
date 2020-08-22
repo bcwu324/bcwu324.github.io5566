@@ -161,12 +161,15 @@ h3.exp_title {
   }
 }
 .comment01 {
+  /* border: 1px solid black; */
+  background-color: #cbb1b4;
   width: 1200px;
   margin: auto;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 100px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   box-shadow: 0px 0px 5px lightgray;
   overflow: hidden;
   opacity: 0;
@@ -196,21 +199,26 @@ h3.exp_title {
   opacity: 0;
   transition: 1s;
 }
-
+.comment01_pic_frame {
+  /* border: 1px solid black; */
+  width: 50%;
+}
 .comment01_pic {
-  background-image: url(..//images/album/freepik/4.jpg);
-  width: 40%;
-  padding-top: 30%;
+  background-image: url(../images/comment/001.jpg);
+  width: 70%;
+  margin: 50px auto;
+  padding-top: 60%;
   background-size: cover;
   background-position: center;
 }
 
 .comment01_description {
-  width: 60%;
+  /* border: 1px solid black; */
+  color: white;
+  width: 50%;
   line-height: 1.6;
   padding: 0 15px 30px;
   opacity: 0.7;
-  background-color: #fff;
   position: relative;
 }
 
@@ -360,9 +368,12 @@ span.comment03_share {
   .comment03 {
     width: 540px;
   }
+  .comment01_pic_frame {
+    width: 100%;
+    /* padding-top: 60%; */
+  }
   .comment01_pic {
     width: 100%;
-    padding-top: 60%;
   }
   .comment02_pic {
     width: 100%;
@@ -394,9 +405,12 @@ span.comment03_share {
   .comment03 {
     width: 100%;
   }
+  .comment01_pic_frame {
+    width: 100%;
+    /* padding-top: 60%; */
+  }
   .comment01_pic {
     width: 100%;
-    padding-top: 60%;
   }
   .comment01_description {
     width: 100%;
