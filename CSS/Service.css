@@ -226,7 +226,7 @@ div.service a {
 
 @media (min-width: 1200px) {
   .cards {
-    width: 1140px;
+    width: 80%;
   }
 }
 @media (max-width: 1199px) and (min-width: 992px) {

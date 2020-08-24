@@ -92,7 +92,7 @@ div.topbar a:hover {
 }
 nav {
   width: 15%;
-  position: fixed;
+  position: absolute;
   padding: 29px 0 10px;
   z-index: 3;
   display: block;
