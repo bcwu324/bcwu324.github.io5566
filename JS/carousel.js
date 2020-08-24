@@ -79,7 +79,7 @@ $(document).ready(function () {
     margin: 10,
     nav: true,
     items: 1,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
   });
