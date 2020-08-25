@@ -1,61 +1,25 @@
-footer {
-  background-color: #ccc5af;
-  color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: space-around;
-  font-size: 0.8rem;
-  align-items: center;
-  box-shadow: 0 -5px 5px #efefef;
+.footer {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.footerLogo {
+  width: 30%;
+  margin: 30px auto;
+}
+.footerLogoImg {
   width: 100%;
 }
-
-footer div {
-  width: 160px;
+.footerFacebook {
+  width: 5%;
+  margin: 0px auto;
 }
-#address {
-  font-size: 0.6rem;
+.footerfbImg {
+  width: 100%;
 }
-
-footer a {
-  text-decoration: none;
-  color: #000;
-  opacity: 0.7;
-  cursor: pointer;
+.footerigImg {
+  width: 100%;
 }
-
-footer a:hover {
-  font-weight: bold;
-}
-
-.booking_button {
-  text-align: center;
-}
-
-.copy {
-  text-align: center;
-}
-
-#footer_pm {
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-#address span {
-  font-size: 1rem;
-  padding: 3px;
-  position: relative;
-  top: 3px;
-}
-@media (max-width: 576px) {
-  footer {
-    justify-content: space-between;
-    position: relative;
-    padding-top: 60px;
-  }
-  .copy {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 10px;
-  }
+.footerIG {
+  width: 5%;
+  margin: 0px auto;
 }
