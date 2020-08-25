@@ -1,28 +1,7 @@
 // header template================================================
 document.querySelector("header").innerHTML = `
         
-        <div class="topbar">
         
-            <div class="top04">
-                    <div class="booking_button">
-                        <a href="#">立即預約</a>
-                    </div>
-            </div>
-
-            <div class="top03">
-                <div class="community_selection">
-                    <a class="community">PM 社群連結</a>
-                        <div class="community_list">
-                            <div class="fb"><a href="#">facebook</a></div>
-                            <div class="ig"><a href="#">Instagram</a></div>
-                            <div class="twitter"><a href="#">twitter</a></div>
-                            <div class="Youtube"><a href="#">Youtube</a></div>
-                            <div class="flickr"><a href="#">flickr</a></div>
-                        </div>
-                </div>
-            </div>
-        
-        </div>
         
         <a href="./index.html">
             <div class="logo"></div>

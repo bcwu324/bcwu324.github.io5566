@@ -128,6 +128,8 @@ div.service a {
 .card {
   width: 324px;
   border: 1px solid lightgray;
+  background-color: #faf4ea9a;
+
   border-radius: 5px;
   overflow: hidden;
   margin: 30px 10px;
@@ -147,7 +149,7 @@ div.service a {
 }
 
 .card .card_pic {
-  height: 194px;
+  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -177,18 +179,19 @@ div.service a {
   width: 40%;
   margin: 20px auto 10px;
   text-decoration: none;
-  transform: translateX(23px);
+  text-align: center;
   box-shadow: 1px 1px 3px gray;
 }
 .supporting_text .booking_button:hover {
   opacity: 1;
   font-weight: bold;
-  transform: translateX(20px) translateY(-1px);
+  transform: translateX(2px) translateY(-1px);
 }
 .card .supporting_text {
   height: 60px;
   background-color: white;
   opacity: 0.7;
+  position: relative;
 }
 
 .card .supporting_text_click {
@@ -198,21 +201,25 @@ div.service a {
 .supporting_text_left {
   display: inline-block;
   padding: 12px;
-  width: 85%;
+  width: 100%;
   height: 100%;
   vertical-align: top;
   cursor: pointer;
 }
 
 .supporting_text_right {
-  display: inline-block;
+  /* display: inline-block; */
   background-color: white;
   width: 13%;
   height: 30px;
   margin-top: 0;
   opacity: 0.6;
-  text-align: center;
-  vertical-align: bottom;
+  /* text-align: center;
+  vertical-align: bottom; */
+  position: absolute;
+  float: right;
+  right: 0;
+  bottom: 0;
 }
 
 #arrowBtn {
