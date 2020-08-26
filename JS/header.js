@@ -31,11 +31,11 @@ document.querySelector("header").innerHTML = `
         </nav>
 `;
 // community_selection======================================================================
-document.querySelector(".community_selection").onclick = () => {
-  document
-    .querySelector(".community_list")
-    .classList.toggle("community_list_active");
-};
+// document.querySelector(".community_selection").onclick = () => {
+//   document
+//     .querySelector(".community_list")
+//     .classList.toggle("community_list_active");
+// };
 
 // vertical_navs=================================================
 document.querySelector(".hamburger").onclick = () => {
