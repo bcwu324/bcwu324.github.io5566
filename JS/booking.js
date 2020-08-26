@@ -57,11 +57,11 @@ let form_close_button = document.getElementById("form_close_button");
 form_motal = () => {
   booking_form.style.display = "block";
 };
-for (i = 0; i < document.querySelectorAll(".booking_button").length; i++) {
-  document
-    .querySelectorAll(".booking_button")
-    [i].addEventListener("click", form_motal);
-}
+// for (i = 0; i < document.querySelectorAll(".booking_button").length; i++) {
+//   document
+//     .querySelectorAll(".booking_button")
+//     [i].addEventListener("click", form_motal);
+// }
 
 // Close Form by X clicking================================================================
 form_close_button.onclick = function () {
