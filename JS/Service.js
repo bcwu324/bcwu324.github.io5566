@@ -18,8 +18,8 @@
 
 // console.log(document.querySelectorAll(".arrowBtn").length);
 
-for (let i = 0; i < document.querySelectorAll(".arrowBtn").length; i++) {
-  document.querySelectorAll(".arrowBtn")[i].onclick = () => {
+for (let i = 0; i < document.querySelectorAll(".card").length; i++) {
+  document.querySelectorAll(".card")[i].onclick = () => {
     document
       .querySelectorAll(".supporting_text")
       [i].classList.toggle("supporting_text_click");
@@ -34,28 +34,40 @@ for (let i = 0; i < document.querySelectorAll(".arrowBtn").length; i++) {
     }
   };
 }
-for (let i = 0; i < document.querySelectorAll("img").length; i++) {
-  document.querySelectorAll("img")[i].onclick = () => {
-    document
-      .querySelectorAll(".supporting_text")
-      [i].classList.toggle("supporting_text_click");
-    if (
-      document.querySelectorAll(".arrowBtn")[i].innerHTML ===
-      "keyboard_arrow_down"
-    ) {
-      document.querySelectorAll(".arrowBtn")[i].innerHTML = "keyboard_arrow_up";
-    } else {
-      document.querySelectorAll(".arrowBtn")[i].innerHTML =
-        "keyboard_arrow_down";
-    }
-  };
-}
-for (
-  let i = 0;
-  i < document.querySelectorAll(".supporting_text_left").length;
-  i++
-) {
-  document.querySelectorAll(".supporting_text_left")[i].onclick = () => {
+// for (let i = 0; i < document.querySelectorAll(".arrowBtn").length; i++) {
+//   document.querySelectorAll(".arrowBtn")[i].onclick = () => {
+//     document
+//       .querySelectorAll(".supporting_text")
+//       [i].classList.toggle("supporting_text_click");
+//     if (
+//       document.querySelectorAll(".arrowBtn")[i].innerHTML ===
+//       "keyboard_arrow_down"
+//     ) {
+//       document.querySelectorAll(".arrowBtn")[i].innerHTML = "keyboard_arrow_up";
+//     } else {
+//       document.querySelectorAll(".arrowBtn")[i].innerHTML =
+//         "keyboard_arrow_down";
+//     }
+//   };
+// }
+// for (let i = 0; i < document.querySelectorAll("img").length; i++) {
+//   document.querySelectorAll("img")[i].onclick = () => {
+//     document
+//       .querySelectorAll(".supporting_text")
+//       [i].classList.toggle("supporting_text_click");
+//     if (
+//       document.querySelectorAll(".arrowBtn")[i].innerHTML ===
+//       "keyboard_arrow_down"
+//     ) {
+//       document.querySelectorAll(".arrowBtn")[i].innerHTML = "keyboard_arrow_up";
+//     } else {
+//       document.querySelectorAll(".arrowBtn")[i].innerHTML =
+//         "keyboard_arrow_down";
+//     }
+//   };
+// }
+for (let i = 0; i < document.querySelectorAll(".card").length; i++) {
+  document.querySelectorAll(".card")[i].onclick = () => {
     document
       .querySelectorAll(".supporting_text")
       [i].classList.toggle("supporting_text_click");

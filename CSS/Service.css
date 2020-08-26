@@ -60,10 +60,10 @@ div.common:hover {
   box-shadow: 10px 10px gray;
 }
 
-h3 {
+/* h3 {
   margin-bottom: 0;
   opacity: 0.8;
-}
+} */
 
 div.pic {
   width: 150px;
@@ -137,19 +137,21 @@ div.service a {
   overflow: hidden;
   margin: 30px 10px;
   font-size: 0.9rem;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   box-shadow: 0 1px 2px lightgray;
 }
 
 .card:hover {
   box-shadow: 5px 5px 15px lightgray;
+  cursor: pointer;
 }
 
 .card .card_title {
   padding: 12px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   line-height: 1.6;
   text-align: center;
+  color: #794f22;
 }
 .card_title h3 {
   margin: 8px 0;
@@ -175,20 +177,26 @@ div.service a {
   transform: scale(1.1);
 }
 .supporting_text .booking_button {
-  background: lightgray;
-  color: black;
+  background: #794f22;
+  color: white;
   font-size: 0.9rem;
   border-radius: 40px;
   border: none;
   transition: 0.1s ease-in-out;
   cursor: pointer;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   display: block;
-  width: 40%;
+  width: 80px;
+  height: 40px;
   margin: 20px auto 10px;
   text-decoration: none;
   text-align: center;
   box-shadow: 1px 1px 3px gray;
+}
+.supporting_text .booking_button a {
+  color: white;
+  line-height: 40px;
+  font-size: 1.1rem;
 }
 .supporting_text .booking_button:hover {
   opacity: 1;
@@ -208,6 +216,7 @@ div.service a {
 
 .supporting_text_left {
   display: inline-block;
+  color: #8f6036;
   padding: 12px;
   width: 100%;
   height: 100%;
