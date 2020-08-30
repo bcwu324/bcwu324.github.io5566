@@ -18,16 +18,20 @@ document.querySelector("header").innerHTML = `
             <hr class="vertical_navs_hr">
             <div><a href="./Album.html" id="vertical_nav_album">精選作品</a></div>
             <hr class="vertical_navs_hr">
+            <!--
             <div><a href="./Aboutus.html" id="vertical_nav_aboutus">關於我們</a></div>
+            -->
             <hr class="vertical_navs_hr">
-            <div><a href="./Customer.html" id="vertical_nav_customer">預約</a></div>
+            <div><a href="https://www.facebook.com/PMphotomakeup/" target="new blank" id="vertical_nav_customer">預約</a></div>
         </div>
         <nav>
             <div><a href="./index.html" id="nav_index">首頁</a></div>
             <div><a href="./Service.html" id="nav_service">服務內容</a></div>
             <div><a href="./Album.html" id="nav_album">精選作品</a></div>
+            <!--
             <div><a href="./Aboutus.html" id="nav_aboutus">關於我們</a></div>
-            <div><a href="./Customer.html" id="nav_customer">預約</a></div>
+            -->
+            <div><a href="https://www.facebook.com/PMphotomakeup/" target="new blank" id="nav_customer">預約</a></div>
         </nav>
 `;
 // community_selection======================================================================
