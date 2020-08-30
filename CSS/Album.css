@@ -50,7 +50,7 @@ hr {
   width: 885px;
   height: 500px;
   display: block;
-  margin: 0 auto;
+  margin: 100px auto;
   /* border: solid green 1px; */
 }
 
@@ -115,31 +115,36 @@ hr {
 }
 
 @media (min-width: 1200px) {
-  .row {
+  .row,
+  .facebookPost {
     width: 1140px;
   }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-  .row {
+  .row,
+  .facebookPost {
     width: 960px;
   }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-  .row {
+  .row,
+  .facebookPost {
     width: 720px;
   }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
-  .row {
+  .row,
+  .facebookPost {
     width: 540px;
   }
 }
 
 @media (max-width: 575px) {
-  .row {
+  .row,
+  .facebookPost {
     width: 100%;
   }
 }
