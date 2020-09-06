@@ -170,7 +170,7 @@ hr {
   cursor: pointer;
 }
 
-img:hover {
+.column img:hover {
   box-shadow: 0px 0px 10px gray;
   z-index: 999;
 }

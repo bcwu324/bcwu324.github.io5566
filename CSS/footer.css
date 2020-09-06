@@ -4,11 +4,15 @@
 }
 .footerLogo {
   /* border: 1px solid black; */
-  width: 30%;
+  width: 60%;
   margin: -10px auto 50px;
+  display: flex;
+  /* border: 1px solid black; */
 }
-.footerLogoImg {
+.footerLogo img {
   width: 100%;
+  display: block;
+  /* border: 1px solid black; */
 }
 .footerFacebook {
   width: 5%;
